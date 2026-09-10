@@ -7,7 +7,7 @@ import AftertastePage from "./pages/AftertastePage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/do">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects/billisan" element={<BillisanPage />} />
